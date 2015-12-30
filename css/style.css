@@ -15,6 +15,7 @@
 
 @font-face{
     font-family: "DC-Quote";
+/*   src: url("../fonts/Adobe Garamond Pro Italic.ttf"); */
     src: url("../fonts/ff-tisa-web-pro.woff");
 }
 
@@ -201,6 +202,7 @@ header p {
 }
 
 .mast-head {
+    height: 100vh;
 	margin-bottom: 30px;
 }
 .mast-head .logo {
@@ -209,13 +211,54 @@ header p {
 .mast-head p {
 }
 
+.mast-head header {
+    width: 80%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.mast-head a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #666;
+}
+
+
+
+.how-we-help{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.how-we-help ul {
+    margin-top: 60px;
+}
 
 .how-we-help li {
 	margin: 30px 0;
 }
 .how-we-help li p {
+    margin-top: 10px;
+}
 
+
+.bl {
+    border-left: 1px solid #eee;
+}
+
+.bt {
+    border-top: 1px solid #eee;
+}
+
+.br {
+    border-right: 1px solid #eee;
+}
+
+.bb {
+    border-bottom: 1px solid #eee;
 }
 
 .our-partners li {
@@ -223,6 +266,32 @@ header p {
 	width: 49%;
 	padding: 20px;
 }
+
+.our-partners footer{
+    text-align: left;
+    margin-top: 30px;
+    /*border: 1px solid #eee;
+    padding: 15px;*/
+}
+
+.our-partners footer p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.our-partners footer a {
+    display: block;
+    width: 150px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+}
+
 
 .our-team li {
 	margin-bottom: 30px;
@@ -237,20 +306,99 @@ header p {
 	margin-top: 20px;
 }
 
-.profile_photo {
-
+.our-team a{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    overflow: hidden;
+    text-indent: 999999px;
 }
 
 .twitter_icon {
+    display: block;
     background: url(../img/icons/twitter.png);
     background-repeat: no-repeat;
-    background-size: 30px 30px;
-    text-indent: 999999px;
+    background-size: auto 24px;
+    background-position: 6px 10px;
+    opacity: 0.2;
 }
 
 .linkedin_icon{
     background: url(../img/icons/linkedin.png);
     background-repeat: no-repeat;
-    background-size: 30px 30px;
-    text-indent: 999999px;
+    background-size: auto 24px;
+    background-position: 10px 10px;
+    opacity: 0.2;
+}
+
+
+
+.hiring div {
+    text-align: left;
+    margin-top: 15px;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.hiring legend{
+    display: inline;
+    padding: 6px;
+    color: #fff;
+    font-family: "DC-News";
+    background-color: #ccc;
+    font-size: 13px;
+    border-radius: 40px;
+}
+
+.hiring p{
+    font-size: 15px;
+}
+
+.hiring a {
+    display: block;
+    width: 150px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+}
+
+
+
+
+.quote legend {
+    color: #666;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.quote p{
+    margin-top: 10px;
+    text-align: left;
+    font-family: "DC-Quote";
+    font-size: 23px;
+}
+
+.quote .cite{
+    display: block;
+    font-family: "DC-News";
+    font-size: 15px;
+    margin-top: 10px;
+    color: #666;
+}
+
+
+.footer {
+    background: #f5f5f5;
+    border-top: 1px solid #f0f0f0;
+}
+
+.footer img {
+    margin: auto 10px;
+    height: 30px;
+    opacity: 0.2;
 }
