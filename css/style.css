@@ -1,0 +1,256 @@
+@font-face{
+    font-family: "DC-Book";
+    src: url("../fonts/ClanPro-Book.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "DC-News";
+    src: url("../fonts/ClanPro-News.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "DC-Medium";
+    src: url("../fonts/ClanPro-Medium.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "DC-Quote";
+    src: url("../fonts/ff-tisa-web-pro.woff");
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 10px;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    outline: none;
+    text-rendering: optimizeLegibility;
+    zoom: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+ul, 
+ol {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+li {
+	margin: 0;
+	padding: 0;
+}
+img {
+    max-width: 100%;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover,
+a:active {
+    outline: 0;
+}
+a img {
+    border: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #666;
+	font-family: "DC-Book", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;    
+}
+
+
+
+body {
+	text-align: center;
+    letter-spacing: -0.03em;	
+}
+
+section {
+    padding: 20px;
+    margin-top: 50px;    
+}
+h1 {
+	margin-bottom: 20px;
+}
+h2 {
+	color:#000;
+    font-family: "DC-Medium";
+    text-transform: uppercase;
+    font-size: 20px;
+}
+h3 {
+	color: #333;
+    font-family: "DC-News";    
+    font-size: 17px;
+}
+h4 {
+	color: #666;
+    font-size: 15px;
+}
+hr {
+    width: 120px;
+    border:none;
+    border-bottom: 2px solid #333;
+    height:1px;
+    margin: 20px auto;
+}
+
+p {
+    font-size: 17px;
+}
+
+li p {
+	margin-top: 5px;
+    font-size: 15px; 
+    line-height: 1.5;	
+}
+
+header p {	
+	color: #333;
+    font-family: "DC-News";        
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.mast-head {
+	margin-bottom: 30px;
+}
+.mast-head .logo {
+	width: 240px;
+}
+.mast-head p {
+}
+
+
+
+.how-we-help li {
+	margin: 30px 0;
+}
+.how-we-help li p {
+
+}
+
+.our-partners li {
+	display: inline-block;
+	width: 49%;
+	padding: 20px;
+}
+
+.our-team li {
+	margin-bottom: 30px;
+}
+.our-team li img {
+	width: 160px;
+	height: 160px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+.our-team li h3 {
+	margin-top: 20px;
+}
+
+.profile_photo {
+
+}
+
+.twitter_icon {
+    background: url(../img/icons/twitter.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    text-indent: 999999px;
+}
+
+.linkedin_icon{
+    background: url(../img/icons/linkedin.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    text-indent: 999999px;
+}
