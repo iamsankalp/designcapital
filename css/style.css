@@ -241,8 +241,25 @@ header p {
 .how-we-help li {
 	margin: 30px 0;
 }
+
+.how-we-help li span {
+    display: inline-block;
+    margin-bottom: 15px;
+    height: 75px;
+    width: 75px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.how-we-help li:nth-child(n+2) {
+    margin-top: 50px;
+}
+
 .how-we-help li p {
+    position: relative;
+    margin: 0 auto;
     margin-top: 10px;
+    width: 85%;
 }
 
 
@@ -264,23 +281,40 @@ header p {
 
 .our-partners li {
 	display: inline-block;
-	width: 49%;
+    width: 49%;
 	padding: 20px;
+    border:1px solid #eee;
+}
+
+.our-partners li:nth-child(even) {
+    margin-left: -4px;
+}
+
+.our-partners li:nth-child(n+3) {
+    margin-top: -1px;
 }
 
 .our-partners footer{
+    position: relative;
+    margin: 0 auto;
+    width: 98%;
     text-align: left;
     margin-top: 30px;
-    /*border: 1px solid #eee;
-    padding: 15px;*/
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+.our-partners footer h3 {
+    margin-top: -4px;
 }
 
 .our-partners footer p {
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .our-partners footer a {
+    font-family: "DC-News";
     display: block;
     width: 150px;
     margin-top: 10px;
@@ -310,7 +344,13 @@ header p {
 .our-team li h3 {
 	margin-top: 20px;
 }
+
+.our-team h4{
+    color: #333;
+}
+
 .our-team a{
+    margin-left: -10px;
     display: inline-block;
     height: 44px;
     width: 44px;
@@ -321,15 +361,15 @@ header p {
 .twitter_icon {
     background: url(../img/icons/twitter.png);
     background-repeat: no-repeat;
-    background-size: auto 20px;
-    background-position: 0px 10px;
+    background-size: auto 18px;
+    background-position: 10px 11px;
     opacity: 0.2;
 }
 .linkedin_icon{
     background: url(../img/icons/linkedin.png);
     background-repeat: no-repeat;
     background-size: auto 20px;
-    background-position: 0px 10px;
+    background-position: 10px 10px;
     opacity: 0.2;
 }
 
@@ -337,11 +377,12 @@ header p {
 
 .hiring div {
     text-align: left;
-    margin-top: 20px;
+    margin-top: 30px;
     border: 1px solid #eee;
-    padding: 10px;
+    padding: 15px;
 }
 .hiring h3 {
+    margin-top: -4px;
 }
 
 /*.hiring legend{
@@ -358,11 +399,11 @@ header p {
     margin-top: 5px;
     font-size: 15px;
 }
-.hiring div a {
+.hiring a {
+    font-family: "DC-News";
     display: block;
     width: 150px;
-    margin-top: 10px;
-    margin-bottom: 3px;
+    margin-top: 20px;
     border: 1px solid #333;
     border-radius: 2px;
     padding: 10px;

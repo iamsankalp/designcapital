@@ -1,5 +1,3 @@
-<html>
-    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,15 +53,15 @@
     
 	<body>
 		
-		<section class="mast-head">
+		<section id="intro" class="mast-head">
 		    <header>
 		        <h1><img class="logo" alt="Design Capital" src="img/logo_dc.png"></h1>
 		        <p>We are product cofounders to internet companies that care deeply about design &amp; user experience</p>
-		        <a href="#">See how we can help</a>
+		        <a id="scroller" href="#">See how we can help</a>
 		    </header>
 	    </section>
 
-	    <section class="how-we-help">     
+	    <section id="help" class="how-we-help">     
 		    <header>
 		        <h2>How We Help</h2>
 		        <hr>
@@ -71,26 +69,32 @@
 		    </header>
 	        <ul>
 		        <li>
+		        	<span>&nbsp;</span>
 	    		    <h3>Partnership</h3>
 			        <p>We partner with you for the long term so we have a better chance to positively impact your business</p>	        	
 		        </li>
 		        <li>
+		        	<span>&nbsp;</span>
 			        <h3>Planning &amp; Strategy</h3>
 			        <p>We understand business &amp; technical aspects of products - balancing desirability, feasibility &amp; viability is what we're good at</p>	        
 		        </li>  
 		        <li>
+		        	<span>&nbsp;</span>
 		        	<h3>User Experience</h3>
 					<p>We'll be your customers' &amp; users' advocates. We'll ensure their needs are a guiding light for the product</p>
 		        </li>
 		        <li>
+		        	<span>&nbsp;</span>
 			        <h3>Team Building</h3>
 			        <p>We can help you recruit the best design &amp; product talent around, so you have a great shot at success</p>
 		        </li>
 		        <li>
+		        	<span>&nbsp;</span>
 			        <h3>Iterations</h3>
 			        <p>An iterative approach is key to understanding your user better &amp; tweaking the product along the way</p>
 		        </li>
 		        <li>
+		        	<span>&nbsp;</span>
 			        <h3>Culture</h3>
 			        <p>We'll help you establish a culture of design excellence with a sharp focus on your user</p>
 		        </li>	        	        
@@ -104,31 +108,30 @@
 		        <p>Already-big &amp; future-big names have partnered with us for a long term</p>
 		    </header>
 		    <ul>
-			    <li class="bl bt br bb">
+			    <li>
 	        		<img alt="Ola Cabs" src="img/partner-logo/olacabs.png">
 			    </li>	
-			    <li class="bl bt br bb">
+			    <li>
 					<img alt="Practo" src="img/partner-logo/practo.png">
 			    </li>	
-			    <li class="bl bt br bb">
+			    <li>
 					<img alt="Cleartrip" src="img/partner-logo/cleartrip.png">
 			    </li>	
-			    <li class="bl bt br bb">					
+			    <li>					
 					<img alt="Hopscotch" src="img/partner-logo/hopscotch.png">
 				</li>	
-			    <li class="bl bt br bb">
+			    <li>
 					<img alt="Melorra" src="img/partner-logo/melorra.png">
 			    </li>	
-			    <li class="bl bt br bb">					
+			    <li>					
 					<img alt="TableHero" src="img/partner-logo/tablehero.png">
 			    </li>	
 		    </ul>
 	        <footer>
 		        <h3>Partner with us?</h3>
 		        <p>If you'd like to partner with us for long term - we'd be interested in knowing about your business &amp; how we'll make great partners</p>
-		        <a href="mailto:partnership@designcapital.in">Write to Us</a>
+		        <a href="mailto:partnership@designcapital.in">Get in touch</a>
 	        </footer>
-	        
 	    </section>
 	    
 	    <section class="our-team">
@@ -166,22 +169,21 @@
 	    
 	    <section class="hiring">
 	    	<header>
-		        <h2>Hiring For</h2>
+		        <h2>Work With Us</h2>
 		        <hr>
-		        <p>We are hiring for our partners as well as at Design Capital</p>
+		        <p>In-house or partner? Your call</p>
 	    	</header>
 	    	<div>
 	    		<h3>Product Manager</h3>
 	    		<!--<legend>Partners</legend><legend>Design Capital</legend>-->
-		        <p>We are looking for smart thinkers for our partners and at Design Capital. Get back with an introduction of a problem that you went about solving recently</p>
-		        <a href="mailto:job-pm@designcapital.in">Apply</a>
+		        <p>Looking for an exciting product management role? We are always looking for smart folks</p>
 	    	</div>
 	    	<div>
-	    		<h3>Designer</h3>
+	    		<h3>Product Designer</h3>
 	    		<!--<legend>Partners</legend><legend>Design Capital</legend>-->
-		        <p>We are always looking for people who can think beyond Dribbble and go about problem solving. Looking forward to your portfolio</p>
-		        <a href="mailto:job-ux@designcapital.in">Apply</a>
+		        <p>You are the one who wants to solve a problem day-in and day-out? Feel free to get back with your portfolio</p>
 	    	</div>
+	    	<a href="mailto:job-ux@designcapital.in">Write to us</a>
 	    </section>
 
 	    <section class="quote">
@@ -192,8 +194,25 @@
 	    </section>
 
 	    <section class="footer">
-	    	<img alt="Design Capital" src="img/favicon/logo_180.png">
+	    	<img id="back-to-top" alt="Design Capital" src="img/favicon/logo_180.png">
 	    </section>
-	    
+
+	    <script src="js/jquery.min.js"></script>
+		<script type="text/javascript">
+			$("#scroller").click(function() {
+				$('html, body').animate({
+				scrollTop: $("#help").offset().top,
+				easing: "easein",
+				}, 500);
+			});
+
+
+			$("#back-to-top").click(function() {
+				$('html, body').animate({
+				scrollTop: $("#intro").offset().top,
+				easing: "easein",
+				}, 500);
+			});
+	    </script>
 	</body>
 </html>
