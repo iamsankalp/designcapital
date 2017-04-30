@@ -209,7 +209,8 @@ a, a:hover, a:visited{
 }
 
 .logo{
-    width: 24em;
+    width: 40vw;
+    min-width: 25em;
 }
 
 .pitch{
@@ -222,11 +223,11 @@ a, a:hover, a:visited{
 .outline-button{
     cursor: pointer;
     height: 3.539em;
-    padding: 1em; 
+    padding: 1em;
     text-align: center;
     font-size: 1.2em;
     border: 1px solid rgb(46, 48, 61);
-    border-radius: 3px; 
+    border-radius: 3px;
 }
 
 .outline-button:hover{
@@ -339,6 +340,7 @@ a, a:hover, a:visited{
     display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-justify-content: center;
+    margin: 0 auto;
 }
 
 .icon-circle img{
@@ -395,23 +397,23 @@ a, a:hover, a:visited{
 }
 
 #p-practo-logo{
-    width: 60%;    
+    width: 60%;
 }
 
 #p-cleartrip-logo{
-    width: 70%;    
+    width: 70%;
 }
 
 #p-hopscotch-logo{
-    width: 75%;    
+    width: 75%;
 }
 
 #p-melorra-logo{
-    width: 65%;    
+    width: 65%;
 }
 
 #p-tablehero-logo{
-    width: 70%;    
+    width: 70%;
 }
 
 .partner-invite{
@@ -452,7 +454,7 @@ a, a:hover, a:visited{
     z-index: 10;
     background: rgba(255, 255, 255, 0.96);
     width: 100%;
-    height: 100%;    
+    height: 100%;
     opacity: 0;
     overflow: hidden;
 /*    display: none; */
@@ -476,7 +478,7 @@ a, a:hover, a:visited{
     border-top: 1px solid rgb(221, 221, 221);
     text-align: center;
     padding: 1em;
-    opacity: 0.6; 
+    opacity: 0.6;
     font-size: 1.2em;
     overflow: hidden;
 }
@@ -487,7 +489,7 @@ a, a:hover, a:visited{
 #team{
     background-color: rgb(249, 249, 249);
     padding: 6em 0 6em 0;
-    border-top: 1px solid rgb(221, 221, 221);   
+    border-top: 1px solid rgb(221, 221, 221);
 }
 
 .team-content{
@@ -564,7 +566,7 @@ a, a:hover, a:visited{
     -webkit-justify-content: center;
     display: -moz-inline-flex;
     -moz-align-items: center;
-    -moz-justify-content: center;    
+    -moz-justify-content: center;
 }
 
 .profile-social-circle img{
@@ -589,7 +591,7 @@ a, a:hover, a:visited{
 #jobs{
     background-color: rgb(255, 255, 255);
     padding: 6em 0 6em 0;
-    border-top: 1px solid rgb(221, 221, 221);    
+    border-top: 1px solid rgb(221, 221, 221);
 }
 
 .jobs-section-margin{
@@ -658,7 +660,7 @@ a, a:hover, a:visited{
 .partner-title{
     margin-top: 1.5em;
     font-size: 1.6em;
-    font-family: "DC-News";    
+    font-family: "DC-News";
 }
 
 .job-item{
@@ -709,7 +711,7 @@ a, a:hover, a:visited{
 }
 
 .mobile-listing-background{
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
     z-index: 100;
     position: absolute;
     right: 0;
@@ -744,7 +746,7 @@ a, a:hover, a:visited{
     text-align: center;
     font-size: 1.2em;
     margin-top: 1.0em;
-    margin-bottom: 1.0em; 
+    margin-bottom: 1.0em;
 }
 
 /*
@@ -768,7 +770,7 @@ a, a:hover, a:visited{
 #quote{
     background-color: rgb(249, 249, 249);
     padding: 6em 0 6em 0;
-    border-top: 1px solid rgb(221, 221, 221);     
+    border-top: 1px solid rgb(221, 221, 221);
 }
 
 .quote-label{
@@ -815,11 +817,11 @@ a, a:hover, a:visited{
 /* MEDIA QUERIES
 -------------------------------------------------- */
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
     body{
         font-size: 12px;
@@ -830,23 +832,23 @@ a, a:hover, a:visited{
     }
 
     #p-practo-logo{
-        width: 45%;    
+        width: 45%;
     }
 
     #p-cleartrip-logo{
-        width: 50%;    
+        width: 50%;
     }
 
     #p-hopscotch-logo{
-        width: 55%;    
+        width: 55%;
     }
 
     #p-melorra-logo{
-        width: 50%;    
+        width: 50%;
     }
 
     #p-tablehero-logo{
-        width: 55%;    
+        width: 55%;
     }
 }
 
@@ -855,45 +857,45 @@ a, a:hover, a:visited{
     body{
         font-size: 13px;
     }
-    
+
     .team-content{
         margin-top: 6em;
     }
-    
+
     .icon-circle:hover {
         transition: 0.75s ease;
         border: 1px solid rgb(181, 181, 181);
     }
-    
+
     .help-head{
         text-align: left;
     }
-    
+
     .help-description{
         display: inherit;
     }
-    
+
     .help-icon-aligner.last, .profile-description.last{
         margin-bottom: auto;
     }
-    
+
     .sm-break{
         display: inherit;
     }
-    
+
     #hopscotch-box{
         border-left: 1px solid rgb(221, 221, 221) !important;
         border-bottom: 1px solid rgb(221, 221, 221) !important;
     }
-    
+
     .partner-invite{
         padding-left: 1em;
         padding-right: 1em;
         margin-top: 4em;
-        border: 1px solid rgb(221, 221, 221); 
-        padding-bottom: 2em;       
+        border: 1px solid rgb(221, 221, 221);
+        padding-bottom: 2em;
     }
-    
+
     .profile-circle{
         width: 12.5em;
         height: 12.5em;
@@ -901,17 +903,17 @@ a, a:hover, a:visited{
     .profile-name, .profile-role, .profile-description{
         text-align: center;
     }
-    
+
     .profile-description{
         margin-top: 0.8em;
         padding-left: 1em;
         padding-right: 1em;
     }
-    
+
     .profile-name{
         margin-top: 1.5em;
     }
-    
+
     .design-quote{
         line-height: 1.8;
     }
@@ -920,7 +922,7 @@ a, a:hover, a:visited{
         text-align: center;
         margin-bottom: auto;
     }
-    
+
     .profile-social-twitter:hover, .profile-social-linkedin:hover{
         transition: opacity 0.5s ease;
         opacity: 0.8;
@@ -929,11 +931,11 @@ a, a:hover, a:visited{
     .job-title, .job-label{
         display: inline;
     }
-    
+
     .job-label{
         padding-left: 1em;
     }
-    
+
     .job-item-cta, .job-description{
         display: inherit;
     }
@@ -944,27 +946,27 @@ a, a:hover, a:visited{
     body{
         font-size: 14px;
     }
-    
+
     .md-break{
         display: inherit;
     }
-    
+
     .partner-box:hover .partner-hover{
         transition: all 0.6s ease;
         opacity: 1;
         display: block;
         visibility: visible;
     }
-    
+
     .partner-box:hover .partner-description{
         transition: all 1.5s ease;
         opacity: 1;
     }
-    
+
     .partner-box{
         min-height: 20em;
     }
-    
+
 }
 
 /* Large Devices, Wide Screens */
@@ -972,11 +974,11 @@ a, a:hover, a:visited{
     body{
         font-size: 15px;
     }
-    
+
     .lg-break{
         display: inherit;
     }
-    
+
 }
 
 @media screen and (max-width:768px) {
