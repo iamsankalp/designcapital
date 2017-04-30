@@ -514,6 +514,7 @@ a, a:hover, a:visited{
     display: -moz-flex;
     -moz-align-items: center;
     -moz-justify-content: center;
+    background-color: #fff;
 }
 
 .profile-photo{
